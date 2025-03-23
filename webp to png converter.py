@@ -1,9 +1,13 @@
+"""
+Small script to convert webp images to 512 x 512 png images for use with telegram sticker bot, nothing fancy
+"""
+
 from PIL import Image
 import os
 import time
 
 # Define the input and output directories
-input_dir = r'D:\JonSaw\Stickers\090325\Genshin 5.4'
+input_dir = r'path-to-image-directory-here'
 output_dir = f"{input_dir}\\png"
 
 # Create the output directory if it doesn't exist
